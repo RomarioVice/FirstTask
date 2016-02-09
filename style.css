@@ -78,16 +78,46 @@ body {
 	background-image: url(img/header.png);
 }
 
+.logo {
+	margin: 30px;
+	float: left;
+}
+
+nav {
+	margin: 30px;
+	float: left;
+}
 
 .bannertxt {
 	height: 442px;
 }
 
+a.button1 {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+
+a.button1:hover { 
+	background: rgba(255,255,255,.2); 
+	}
+
+a.button1:active { 
+	background: white; 
+	}
+
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 	height: auto;
-	width: 1300px;
+	width: 1170px;
 }
 
 .cont1 {
@@ -117,13 +147,14 @@ body {
 }
 
 
-
 .contxt {
 	text-align: center;
 }
 
 .conthr {
-	clear: left;
+	margin-left: 270px;
+	margin-top: 60px;
+	margin-bottom: 30px;
 }
 
 .fi {
@@ -150,14 +181,56 @@ body {
 	background-image: url(img/content2/third.jpg);
 }
 
+.imail {
+	margin-left: 45%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 100px;
+	background-color: white;
+}
 
 
+.sublet {
+	margin-left: 301.5px;
+}
+
+textarea {
+	width: 567px;
+	height: 123px;
+	resize: none;
+	background-image: url(img/content3/textarea.png);
+	border: none;
+	margin-bottom: 30px;
+}
+
+.txt1 {
+	width: 270px;
+	height: 44px;
+	background-image: url(img/content3/text.png);
+	border: none;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+ .txt2 {
+	width: 270px;
+	height: 44px;
+	background-image: url(img/content3/text.png);
+	border: none;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+.subm {
+	
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
 	clear: left;
-	width: 1920px;
+	width: 100%;
+	min-width: 1170px;
 	height: 200px;
 	background-image: url(img/footer.png);
 }
