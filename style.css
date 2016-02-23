@@ -119,18 +119,20 @@ a:hover {
 	color: white;
 	background: black
 }
-h1 {
-	font-size: 48px;
+.ss1 {
+	font-size: 41px;
 	font-family: 'Fjalla One', sans-serif;
 	color: white;
+	letter-spacing: 5px;
 }
 
-h2 {
-	font-size: 36px;
+.ss2 {
+	font-size: 31px;
 	font-family: 'Fjalla One', sans-serif;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 20px;
+	letter-spacing: 5px;
 }
 
 .bannertxt {
@@ -143,16 +145,17 @@ h2 {
 
 
 a.button1 {
-  display: inline-block;
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-  user-select: none;
-  padding: .5em 2em;
-  outline: none;
-  border: 2px solid;
-  border-radius: 1px;
-  transition: 0.2s;
+	width: 142px;
+	height: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	display: inline-block;
+	color: white;
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	outline: none;
+	border: 2px solid;
+	transition: 0.2s;
 } 
 
 a.button1:hover { 
@@ -166,57 +169,115 @@ a.button1:active {
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
-	height: auto;
 	width: 1170px;
+}
+
+.contof4 {
+	width: 1170px;
+	overflow: auto;
+}
+
+.ctext{
+	font-size: 16px;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
 .cont1 {
 	text-align: center;
-	max-width: 585px;
-	max-height: 336px;
-	background-image: url(img/content/row11.png);
-	
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	width: 585px;
+	height: 336px;
+	float: left;
+	background: #E84C3D;
 }
 
-.ctxt1 {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	margin-left: 10px;
+.cont2 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	width: 585px;
+	height: 336px;
+	float: right;
+	background: #fDBD1F;
 }
 
-h3 {
-	font-size: 24px;
+.cont3 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	width: 585px;
+	height: 336px;
+	float: left;
+	background: #1BBC9B;
+}
+
+.cont4 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	width: 585px;
+	height: 336px;
+	float: right;
+	background: #9B58B5;
+}
+
+.items {
+	margin-top: 12%;
+	border-radius: 100px;
+	background-color: white;
+}
+
+.upper {
+	font-size: 29px;
 	font-family: 'Fjalla One', sans-serif;
 	color: white;
 	padding: 20px;
 }
 
-.cont2 {
-	width: 585px;
-	height: 336px;
-	background-image: url(img/content/row12.png);
-}
-.cont3 {
-	width: 585px;
-	height: 336px;
-	background-image: url(img/content/row21.png);
-}
-.cont4 {
-	width: 585px;
-	height: 336px;
-	background-image: url(img/content/row22.png);
+.upper2 {
+	font-size: 29px;
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	margin: 34px;
 }
 
 
-.contxt {
+.chr {
+	height: 217px;
 	text-align: center;
+	color: white;
+	font-size: 21px;
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 80px;
 }
 
-.conthr {
-	margin-left: 270px;
-	margin-top: 60px;
-	margin-bottom: 30px;
+hr.hr1 {
+	border: none;
+	height: 1px;
+	width: 121px; 
+	color: #4682B4;
+	background-color: #4682B4;
+	display: inline-block;
+	margin: 3px 4px 10px 10px;
+}
+
+.items2 {
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border-radius: 100px;
+}
+
+
+.c3txt{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-size: 16px;
+	margin: 5%;
+	color: #87CEFA;
+	font-weight: 200;
+	line-height: 1.5;
 }
 
 .fi {
@@ -224,8 +285,30 @@ h3 {
 	height: 497px;
 	float: left;
 	margin-right: 30px;
-	background-image: url(img/content2/first.jpg);
+	background-image: url(img/content2/first.png);
+	text-align: center;
 }
+
+a.button2 {
+	width: 102px;
+	height: 25px;
+	display: inline-block;
+	background: #CA4D40;
+	transition: 0.2s;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+} 
+
+a.button2:hover { 
+	background: rgba(255,255,255,.2); 
+	cursor: pointer;
+	}
+
+a.button2:active { 
+	background: white; 
+	}
 
 
 .se {
@@ -233,15 +316,59 @@ h3 {
 	height: 497px;
 	float: left;
 	margin-right: 30px;
-	background-image: url(img/content2/second.jpg);
+	background-image: url(img/content2/second.png);
+	text-align: center;
 }
+
+a.button3 {
+	width: 102px;
+	height: 25px;
+	display: inline-block;
+	background: #EDBC37;
+	transition: 0.2s;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+} 
+
+a.button3:hover { 
+	background: rgba(255,255,255,.2); 
+	cursor: pointer;
+	}
+
+a.button3:active { 
+	background: white; 
+	}
 
 .th {
 	width: 370px;
 	height: 497px;
 	float: left;
 	background-image: url(img/content2/third.jpg);
+	text-align: center;
 }
+
+a.button4 {
+	width: 102px;
+	height: 25px;
+	display: inline-block;
+	background: #40E0D0;
+	transition: 0.2s;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+} 
+
+a.button4:hover { 
+	background: rgba(255,255,255,.2); 
+	cursor: pointer;
+	}
+
+a.button4:active { 
+	background: white; 
+	}
 
 .imail {
 	margin-left: 45%;
