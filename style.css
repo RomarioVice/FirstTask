@@ -158,6 +158,7 @@ a.button1 {
 	transition: 0.2s;
 } 
 
+
 a.button1:hover { 
 	background: rgba(255,255,255,.2); 
 	}
@@ -245,12 +246,12 @@ a.button1:active {
 
 
 .chr {
-	height: 217px;
 	text-align: center;
 	color: white;
 	font-size: 21px;
 	font-family: 'Fjalla One', sans-serif;
 	padding-top: 80px;
+	padding-bottom: 82px;
 }
 
 hr.hr1 {
