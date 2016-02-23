@@ -81,21 +81,65 @@ body {
 
 .logo {
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 	padding: 30px;
 	height: 79px;
-}
-	
-.tdf {
-	width: 870px; 
-	cellpadding: 30px;
-}
-	
-.tds {
-	font-size: 15px;	
+	float: left;
+	margin-right: 700px;
 }
 
+.navigation{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 17px;
+	float: clear;
+	height: 79px;
+	padding-top: 29px;
+}
+
+a.a1:link{
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a2:link{
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a3:link{
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a4:link{
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a1:hover{
+	background: red;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a2:hover{
+	background: red;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a3:hover{
+	background: red;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+a.a4:hover{
+	background: red;
+	padding-right: 17px;
+	padding-left: 17px;
+}
 
 a:link {
 	text-decoration: none;
