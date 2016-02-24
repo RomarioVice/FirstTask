@@ -200,27 +200,24 @@ a:hover {
 
 
 a.button1 {
+	background: url(img/readmore.png);
+	background-repeat: no-repeat;
 	width: 142px;
-	height: 25px;
 	font-family: 'Fjalla One', sans-serif;
 	display: inline-block;
 	color: white;
 	font-size: 17px;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	outline: none;
-	border: 2px solid;
-	transition: 0.2s;
+	padding-top: 16px;
+	padding-bottom: 22px;
+	border: none;
 } 
 
 
 a.button1:hover { 
-	background: rgba(255,255,255,.2); 
+	background: url(img/readmore2.png);
+	background-repeat: no-repeat;
 	}
 
-a.button1:active { 
-	background: white; 
-	}
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -366,24 +363,20 @@ hr.hr2 {
 }
 
 a.button2 {
+	background: url(img/content2/rmf.png);
+	background-repeat: no-repeat;
 	width: 102px;
-	height: 25px;
-	display: inline-block;
-	background: #CA4D40;
-	transition: 0.2s;
-	padding-top: 10px;
-	color: white;
 	font-family: 'Fjalla One', sans-serif;
+	display: inline-block;
+	color: white;
 	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 18px;
 } 
 
-a.button2:hover { 
-	background: rgba(255,255,255,.2); 
+a.button2:hover {
+	background: url(img/content2/rmf2.png);
 	cursor: pointer;
-	}
-
-a.button2:active { 
-	background: white; 
 	}
 
 
@@ -397,24 +390,20 @@ a.button2:active {
 }
 
 a.button3 {
+	background: url(img/content2/rms.png);
+	background-repeat: no-repeat;
 	width: 102px;
-	height: 25px;
-	display: inline-block;
-	background: #EDBC37;
-	transition: 0.2s;
-	padding-top: 10px;
-	color: white;
 	font-family: 'Fjalla One', sans-serif;
+	display: inline-block;
+	color: white;
 	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 18px;
 } 
 
 a.button3:hover { 
-	background: rgba(255,255,255,.2); 
+	background: url(img/content2/rms2.png);
 	cursor: pointer;
-	}
-
-a.button3:active { 
-	background: white; 
 	}
 
 .th {
@@ -426,24 +415,20 @@ a.button3:active {
 }
 
 a.button4 {
+	background: url(img/content2/rmt.png);
+	background-repeat: no-repeat;
 	width: 102px;
-	height: 25px;
-	display: inline-block;
-	background: #40E0D0;
-	transition: 0.2s;
-	padding-top: 10px;
-	color: white;
 	font-family: 'Fjalla One', sans-serif;
+	display: inline-block;
+	color: white;
 	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 18px;
 } 
 
 a.button4:hover { 
-	background: rgba(255,255,255,.2); 
+	background: url(img/content2/rmt2.png);
 	cursor: pointer;
-	}
-
-a.button4:active { 
-	background: white; 
 	}
 
 .imail {
