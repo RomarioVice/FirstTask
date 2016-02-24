@@ -514,12 +514,13 @@ textarea {
 
 .foot1{
 	padding-top: 40px;
-	padding-bottom: 28px;
+	padding-bottom: 20px;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 	font-size: 15px;
 }
+
 
 .fa-facebook{
 	color: #245863;
