@@ -87,6 +87,8 @@ body {
 	height: 79px;
 	width: 1170px;
 	background-image: url(img/header.png);
+	border: 1px solid;
+	border-color: #2a6b7a;
 }
 
 
@@ -97,7 +99,7 @@ body {
 	padding: 30px;
 	height: 79px;
 	float: left;
-	margin-right: 700px;
+	margin-right: 680px;
 }
 
 .navigation{
@@ -186,15 +188,13 @@ a:hover {
 	font-family: 'Fjalla One', sans-serif;
 	color: white;
 	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 34px;
 	letter-spacing: 5px;
 }
 
 .bannertxt {
-	margin-top: 13%;
-	margin-bottom: 13%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-top: 156px;
+	margin-bottom: 120px;
 	text-align: center;
 }
 
@@ -514,6 +514,9 @@ textarea {
 	color: white;
 }
 
+.submi:hover {
+	border: none;
+}
 
 
 /* Footer
