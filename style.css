@@ -64,15 +64,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 body {
 	font: 12px/18px Arial, sans-serif;
-	background-image: url("img/bg.jpg");
+	background: 
+		url("img/banner.jpg") no-repeat,
+		url("img/bg.jpg");
 	min-width: 1170px;
+	z-index: 1;
 }
 
-.banner {
+/*.banner {
 	background-image: url("img/banner.jpg");
 	background-repeat: no-repeat;
-	background-position: center 0px;
+	z-index: 0;
 }
+*/
 
 
 .wrapper {
@@ -89,6 +93,9 @@ body {
 	background-image: url(img/header.png);
 	border: 1px solid;
 	border-color: #2a6b7a;
+	position: fixed;
+	margin: 0 auto;
+	top: 0;
 }
 
 
@@ -193,7 +200,7 @@ a:hover {
 }
 
 .bannertxt {
-	margin-top: 156px;
+	margin-top: 233px;
 	margin-bottom: 120px;
 	text-align: center;
 }
@@ -457,7 +464,7 @@ a.button4:hover {
 	margin-bottom: 30px;
 }
 
- .txt2 {
+.txt2 {
 	color: white;
 	text-align: center;
 	width: 270px;
