@@ -65,13 +65,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	font: 12px/18px Arial, sans-serif;
 	background: 
-<<<<<<< HEAD
 		url("img/banner.jpg") no-repeat center 0,
 		url("img/bg.jpg");
-=======
-		url(img/banner.jpg) no-repeat center 0,
-		url(img/bg.jpg);
->>>>>>> origin/links-changed
 	min-width: 1170px;
 }
 
@@ -106,15 +101,42 @@ body {
 	margin-right: 680px;
 }
 
-.navigation{
+/*.navigation{
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 17px;
 	float: clear;
 	height: 79px;
 	padding-top: 29px;
+} */
+
+.navigation{
+	height: 79px;
 }
 
-a.a1:link{
+#navigation li {
+	float: left;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 17px;
+	padding-top: 15px;
+}
+
+#navigation a {
+	text-decoration: none;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+#navigation .active a {
+	color: red;
+}
+
+#navigation .hover a {
+	background: red;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+/*a.a1:link{
 	padding-right: 17px;
 	padding-left: 17px;
 }
@@ -179,7 +201,9 @@ a:hover {
 	text-decoration: none;
 	color: white;
 	background: black
-}
+}*/
+
+
 .ss1 {
 	font-size: 41px;
 	font-family: 'Fjalla One', sans-serif;
