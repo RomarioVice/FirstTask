@@ -29,7 +29,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-	background: url(img/bg.jpg);
 }
 blockquote, q {
 	quotes: none;
@@ -65,18 +64,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	font: 12px/18px Arial, sans-serif;
 	background: 
-		url("img/banner.jpg") no-repeat,
+		url("img/banner.jpg") no-repeat center 0,
 		url("img/bg.jpg");
 	min-width: 1170px;
-	z-index: 1;
 }
-
-/*.banner {
-	background-image: url("img/banner.jpg");
-	background-repeat: no-repeat;
-	z-index: 0;
-}
-*/
 
 
 .wrapper {
