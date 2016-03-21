@@ -88,6 +88,7 @@ body {
 	position: fixed;
 	margin: 0 auto;
 	top: 0;
+	z-index: 1;
 }
 
 
@@ -490,10 +491,18 @@ textarea {
 	color: white;
 }
 
+#googleMap {
+	margin:0 auto;
+	width:500px;
+	height:380px;
+	z-index: 0;
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
+	margin-top: 30px;
 	width: 100%;
 	min-width: 1170px;
 	height: 200px;
