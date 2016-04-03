@@ -51,22 +51,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 @font-face{
 	font-family: 'Fjalla One';
-	src: url(fonts/FjallaOne/FjallaOne-Regular.eot);
-	src: url(fonts/FjallaOne/FjallaOne-Regular.ttf);
+	src: url(../fonts/FjallaOne/FjallaOne-Regular.eot);
+	src: url(../fonts/FjallaOne/FjallaOne-Regular.ttf);
 }
 
 @font-face{
 	font-family: 'Source Sans Pro';
-	src: utl(fonts/SourceSansPro/SourceSansPro-Regular.eot);
-	src: utl(fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+	src: utl(../fonts/SourceSansPro/SourceSansPro-Regular.eot);
+	src: utl(../fonts/SourceSansPro/SourceSansPro-Regular.ttf);
 }
 
 
 body {
 	font: 12px/18px Arial, sans-serif;
 	background: 
-		url("img/banner.jpg") no-repeat center 0,
-		url("img/bg.jpg");
+		url("../img/banner.jpg") no-repeat center 0,
+		url("../img/bg.jpg");
 	min-width: 1170px;
 }
 
@@ -82,7 +82,7 @@ body {
 .header {
 	height: 79px;
 	width: 1170px;
-	background-image: url(img/header.png);
+	background-image: url(../img/header.png);
 	border: 1px solid;
 	border-color: #2a6b7a;
 	position: fixed;
@@ -170,7 +170,7 @@ a:hover {
 
 
 a.button1 {
-	background: url(img/readmore.png);
+	background: url(../img/readmore.png);
 	background-repeat: no-repeat;
 	width: 142px;
 	font-family: 'Fjalla One', sans-serif;
@@ -184,7 +184,7 @@ a.button1 {
 
 
 a.button1:hover { 
-	background: url(img/readmore2.png);
+	background: url(../img/readmore2.png);
 	background-repeat: no-repeat;
 	text-decoration: none;
 	}
@@ -330,12 +330,12 @@ hr.hr2 {
 	height: 497px;
 	float: left;
 	margin-right: 30px;
-	background-image: url(img/content2/first.png);
+	background-image: url(../img/content2/first.png);
 	text-align: center;
 }
 
 a.button2 {
-	background: url(img/content2/rmf.png);
+	background: url(../img/content2/rmf.png);
 	background-repeat: no-repeat;
 	width: 102px;
 	font-family: 'Fjalla One', sans-serif;
@@ -347,7 +347,7 @@ a.button2 {
 } 
 
 a.button2:hover {
-	background: url(img/content2/rmf2.png) no-repeat;
+	background: url(../img/content2/rmf2.png) no-repeat;
 	cursor: pointer;
 	text-decoration: none;
 	}
@@ -358,12 +358,12 @@ a.button2:hover {
 	height: 497px;
 	float: left;
 	margin-right: 30px;
-	background-image: url(img/content2/second.png);
+	background-image: url(../img/content2/second.png);
 	text-align: center;
 }
 
 a.button3 {
-	background: url(img/content2/rms.png);
+	background: url(../img/content2/rms.png);
 	background-repeat: no-repeat;
 	width: 102px;
 	font-family: 'Fjalla One', sans-serif;
@@ -375,7 +375,7 @@ a.button3 {
 } 
 
 a.button3:hover { 
-	background: url(img/content2/rms2.png) no-repeat;
+	background: url(../img/content2/rms2.png) no-repeat;
 	cursor: pointer;
 	text-decoration: none;
 	}
@@ -384,12 +384,12 @@ a.button3:hover {
 	width: 370px;
 	height: 497px;
 	float: left;
-	background-image: url(img/content2/third.jpg);
+	background-image: url(../img/content2/third.jpg);
 	text-align: center;
 }
 
 a.button4 {
-	background: url(img/content2/rmt.png);
+	background: url(../img/content2/rmt.png);
 	background-repeat: no-repeat;
 	width: 102px;
 	font-family: 'Fjalla One', sans-serif;
@@ -401,7 +401,7 @@ a.button4 {
 } 
 
 a.button4:hover { 
-	background: url(img/content2/rmt2.png) no-repeat;
+	background: url(../img/content2/rmt2.png) no-repeat;
 	cursor: pointer;
 	text-decoration: none;
 	}
@@ -416,7 +416,7 @@ a.button4:hover {
 
 .sublet {
 	margin: 0 auto;
-	width: 600px;
+	width: 564px;
 }
 
 .txt1 {
@@ -429,7 +429,7 @@ a.button4:hover {
 	border: 1px;
 	border-style: solid;
 	border-color: #397d8a;
-	margin-right: 12px;
+	margin-right: 0px;
 	margin-bottom: 30px;
 }
 
@@ -442,7 +442,7 @@ a.button4:hover {
 	border: 1px;
 	border-style: solid;
 	border-color: #397d8a;
-	margin-left: 12px;
+	margin-left: 24px;
 	margin-bottom: 30px;
 }
 
@@ -471,7 +471,7 @@ textarea {
 	padding-bottom: 10px;
 	height: 46px;
 	width: 102px;
-	background: url(img/content3/sub.png);
+	background: url(../img/content3/sub.png);
 	background-repeat: no-repeat;
 	border: none;
 	font-size: 15px;
@@ -482,7 +482,7 @@ textarea {
 .submi:hover {
 	height: 46px;
 	width: 102px;
-	background: url(img/content3/sub2.png);
+	background: url(../img/content3/sub2.png);
 	background-repeat: no-repeat;
 	border: none;
 	cursor: pointer;
@@ -506,7 +506,7 @@ textarea {
 	width: 100%;
 	min-width: 1170px;
 	height: 200px;
-	background-image: url(img/footer.png);
+	background-image: url(../img/footer.png);
 }
 
 .foot1{
